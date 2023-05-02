@@ -1,4 +1,4 @@
-import 'package:apr_cache_loader/src/configs/strings.dart';
+import 'package:arp_cache_loader/src/configs/strings.dart';
 
 class RegExpUtils{
   static String? getIp(String str){

@@ -16,7 +16,7 @@ Loading tools of arp cache, which make it more convenient to find corresponding 
 Here is a simple usage example:
 
 ```dart
-import 'package:apr_cache_loader/apr_cache_loader.dart';
+import 'package:arp_cache_loader/arp_cache_loader.dart';
 
 void main() async{
   // load raw arp cache as string

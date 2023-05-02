@@ -1,4 +1,4 @@
-import 'package:apr_cache_loader/apr_cache_loader.dart';
+import 'package:arp_cache_loader/arp_cache_loader.dart';
 import 'package:test/test.dart';
 
 void main() {

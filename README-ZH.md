@@ -11,7 +11,7 @@ Arp缓存读取工具，方便根据ip地址找到对应的mac地址。
 下面是一个示例：
 
 ```dart
-import 'package:apr_cache_loader/apr_cache_loader.dart';
+import 'package:arp_cache_loader/arp_cache_loader.dart';
 
 void main() async{
   // load raw arp cache as string

@@ -1,7 +1,7 @@
 
 
-import 'package:apr_cache_loader/src/arp_loader.dart';
-import 'package:apr_cache_loader/src/utils/command_run_utils.dart';
+import 'package:arp_cache_loader/src/arp_loader.dart';
+import 'package:arp_cache_loader/src/utils/command_run_utils.dart';
 
 class WinArpLoader extends ArpLoader{
 

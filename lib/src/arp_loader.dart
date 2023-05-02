@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:apr_cache_loader/src/configs/strings.dart';
-import 'package:apr_cache_loader/src/utils/reg_exp_utils.dart';
+import 'package:arp_cache_loader/src/configs/strings.dart';
+import 'package:arp_cache_loader/src/utils/reg_exp_utils.dart';
 
 import 'loaders/default_loader.dart';
 import 'loaders/win_loader.dart';
