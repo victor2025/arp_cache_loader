@@ -5,7 +5,7 @@ import 'package:apr_cache_loader/src/utils/command_run_utils.dart';
 
 class WinArpLoader extends ArpLoader{
 
-  static const String ARP_CMD = "arp -a";
+  static const String _arpCmd = "arp -a";
 
   @override
   Future<Map<String, String>> loadAsMap() async{
@@ -18,7 +18,7 @@ class WinArpLoader extends ArpLoader{
 
   @override
   Future<String> loadAsString() async{
-    return await CommandRunner.runCommand(ARP_CMD)
+    return await CommandRunner.runCommand(_arpCmd)
         .catchError((e)=>Future.value(""));
   }
 

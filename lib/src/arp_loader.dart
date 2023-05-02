@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:apr_cache_loader/src/configs/strings.dart';
 import 'package:apr_cache_loader/src/utils/reg_exp_utils.dart';
 
-import 'loaders/default.dart';
-import 'loaders/win.dart';
+import 'loaders/default_loader.dart';
+import 'loaders/win_loader.dart';
 
 
 abstract class ArpLoader{
@@ -16,7 +16,7 @@ abstract class ArpLoader{
   static ArpLoader _initLoader(){
     late ArpLoader loader;
     switch (Platform.operatingSystem){
-      case Platforms.WINDOWS:
+      case Platforms.windows:
         loader = WinArpLoader();
         break;
       default:

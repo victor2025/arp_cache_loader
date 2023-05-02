@@ -1,7 +1,8 @@
 name: apr_cache_loader
 description: Loading tools of arp cache, which make it more convenient to find corresponding mac address by ip address.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+homepage: https://github.com/victor2025
+repository: https://github.com/victor2025/arp_cache_loader
 
 environment:
   sdk: '>=2.17.0 <3.0.0'

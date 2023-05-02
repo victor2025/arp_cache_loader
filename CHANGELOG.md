@@ -1,6 +1,6 @@
 ## 1.0.0
 - Initial version.
-- Load arp cache on:
+- Supported platforms:
   - windows
   - linux
   - android
