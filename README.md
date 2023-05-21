@@ -38,8 +38,12 @@ void main() async{
 - linux
 - macos(untested)
 
+## Warning
+- [This package may not work on Android11+(>=30)][issue_1]
+
 ## Issues
 
-Please submit issue at the [issue tracker][tracker].
+Please submit issues at the [issue tracker][tracker].
 
 [tracker]: https://github.com/victor2025/arp_cache_loader/issues
+[issue_1]: https://github.com/victor2025/arp_cache_loader/issues/1

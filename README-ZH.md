@@ -33,8 +33,12 @@ void main() async{
 - linux
 - macos(untested)
 
+## 警告
+- [本包可能无法在Android11+(>=30)上使用][issue_1]
+
 ## Issues
 
 请在[issue tracker][tracker]中反馈issue。
 
 [tracker]: https://github.com/victor2025/arp_cache_loader/issues
+[issue_1]: https://github.com/victor2025/arp_cache_loader/issues/1
